@@ -30,4 +30,10 @@ btnNo.addEventListener("mouseover", (e) => {
 
     btnNo.style.top = Math.floor(newTop) + "px";
     btnNo.style.left = Math.floor(newLeft) + "px";
+
+    btnYes.addEventListener("click", (e) => {
+        btnNo.classList.add("hide");
+        img2.classList.add("hide");
+        img1.classList.remove("hide");
+    });
 });

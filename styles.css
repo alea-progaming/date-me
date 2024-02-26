@@ -15,6 +15,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.hide {
+    display: none;
+}
+
 .header {
     font-family:  "Dancing Script", cursive;
     font-size: 50px;
